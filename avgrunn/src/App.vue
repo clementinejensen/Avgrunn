@@ -39,7 +39,7 @@ do not have the slightest idea what most of it does :) */
   margin: 0;
   margin-bottom: 2em;
   padding: 1em;
-  font-size: 20px;
+  font-size: 2em;
 }
 
 .routerlink {

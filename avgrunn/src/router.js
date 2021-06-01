@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import FrontPageIdea from './views/FrontPageIdea.vue'
+import FrontPage from './views/FrontPage.vue'
+import ChooseYourSide from './views/ChooseYourSide.vue'
 
 Vue.use(Router)
 
@@ -11,7 +12,12 @@ export default new Router({
     {
       path: '/',
       name: 'frontPage',
-      component: FrontPageIdea
+      component: FrontPage
+    },
+    {
+      path: '/ChooseYourSide',
+      name: 'chooseYourSide',
+      component: ChooseYourSide
     }
   ]
 })
