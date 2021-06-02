@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import FrontPage from './views/FrontPage.vue'
 import ChooseYourSide from './views/ChooseYourSide.vue'
+import Clementine from './views/Clementine.vue'
 
 Vue.use(Router)
 
@@ -18,6 +19,11 @@ export default new Router({
       path: '/ChooseYourSide',
       name: 'chooseYourSide',
       component: ChooseYourSide
+    },
+    {
+      path: '/Clementine',
+      name: 'clementine',
+      component: Clementine
     }
   ]
 })
