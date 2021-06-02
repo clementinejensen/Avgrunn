@@ -1,18 +1,18 @@
 <template>
-  <div id="clementine-homepage">
+  <div id="will-homepage">
 
-      <div id="clem-profile">
-          <div id="clem-profile-pic"></div>
+      <div id="will-profile">
+          <div id="will-profile-pic"></div>
 
-          <router-link class="routerlink-profile" to="/Clementine/Music"><p class="router-p">Music</p></router-link>
-          <router-link class="routerlink-profile" to="/Clementine/Poems"><p class="router-p">Poems</p></router-link>
-          <router-link class="routerlink-profile" to="/Clementine/Writings"><p class="router-p">Writings</p></router-link>
+          <router-link class="routerlink-profile" to="/Will/Music"><p class="router-p">Music</p></router-link>
+          <router-link class="routerlink-profile" to="/Will/Poems"><p class="router-p">Poems</p></router-link>
+          <router-link class="routerlink-profile" to="/Will/Writings"><p class="router-p">Writings</p></router-link>
       </div>
 
-      <div id="clem-content">
-          <p class="profile-p">/Clementine/Entries</p>
+      <div id="will-content">
+          <p class="profile-p">/Will/Entries</p>
           
-          <div id="clem-entries">
+          <div id="will-entries">
               <entry-component/>
               <entry-component/>
           </div>
@@ -28,7 +28,7 @@ import EntryComponent from '../components/EntryComponent.vue'
 
 
 export default {
-  name: 'clementineHomepage',
+  name: 'willHomepage',
   components: {
       EntryComponent
   },
@@ -43,8 +43,8 @@ export default {
 
 /* I had all of this in an old project of mine but I
 do not have the slightest idea what most of it does :) */
-#clementine-homepage {
-    background: #84A98C;
+#will-homepage {
+    background: #b0b6b0;
     overflow-y: hidden;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
@@ -60,8 +60,8 @@ do not have the slightest idea what most of it does :) */
     margin: 0;
 }
 
-#clem-profile {
-    background: #eef8f6;
+#will-profile {
+    background: #e6e4e4;
     overflow-y: hidden;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
@@ -79,8 +79,8 @@ do not have the slightest idea what most of it does :) */
     border-right: 0.15em solid #586A6A;
 }
 
-#clem-profile-pic {
-    background: url('../assets/Clem-photo.png');
+#will-profile-pic {
+    background: url('../assets/Will-photo.png');
     height: 15em;
     width: 80%;
     margin-left: 10%;
@@ -90,14 +90,14 @@ do not have the slightest idea what most of it does :) */
     border: 0.15em solid #586A6A;
 }
 
-#clem-content {
+#will-content {
     position: absolute;
     left: 20.1em;
     right: 0%;
     top: 0%;
     bottom:0%;
 
-    background: #84A98C;
+    background: #b0b6b0;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -109,7 +109,7 @@ do not have the slightest idea what most of it does :) */
     height: 100%;
 }
 
-#clem-entries {
+#will-entries {
     position: absolute;
     left: 4em;
     right: 4em;
@@ -142,7 +142,7 @@ do not have the slightest idea what most of it does :) */
 }
 
 .routerlink-profile:hover {
-    color: #b0b6b0;
+    color: #67A689;
 }
 
 .profile-p {
