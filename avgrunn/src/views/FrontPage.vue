@@ -9,7 +9,7 @@
 <script>
 
 export default {
-  name: 'home',
+  name: 'frontpage',
   data() {
     return {
     }
@@ -27,7 +27,6 @@ do not have the slightest idea what most of it does :) */
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    text-align: center;
     color: #fff;
     background-position: center center;
     background-attachment: fixed;
