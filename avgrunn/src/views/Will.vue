@@ -44,7 +44,8 @@ export default {
 /* I had all of this in an old project of mine but I
 do not have the slightest idea what most of it does :) */
 #will-homepage {
-    background: #b0b6b0;
+    background: url('../assets/Will-background.jpg');
+    /* Image retrieved from https://unsplash.com/photos/pet4QuCuecU */
     overflow-y: hidden;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
@@ -61,7 +62,7 @@ do not have the slightest idea what most of it does :) */
 }
 
 #will-profile {
-    background: #e6e4e4;
+    background: rgba(255,255,255,0.6);
     overflow-y: hidden;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
@@ -97,7 +98,7 @@ do not have the slightest idea what most of it does :) */
     top: 0%;
     bottom:0%;
 
-    background: #b0b6b0;
+    background: url('../assets/Will-background.jpg');
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

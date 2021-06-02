@@ -44,7 +44,8 @@ export default {
 /* I had all of this in an old project of mine but I
 do not have the slightest idea what most of it does :) */
 #clementine-homepage {
-    background: #84A98C;
+    background: url('../assets/Clem-background.jpg');
+    /* Image retrieved from https://unsplash.com/photos/0wNzjEUz3IQ */
     overflow-y: hidden;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
@@ -61,7 +62,7 @@ do not have the slightest idea what most of it does :) */
 }
 
 #clem-profile {
-    background: #eef8f6;
+    background: rgba(255,255,255,0.6);
     overflow-y: hidden;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
@@ -97,7 +98,7 @@ do not have the slightest idea what most of it does :) */
     top: 0%;
     bottom:0%;
 
-    background: #84A98C;
+    background: url('../assets/Clem-background.jpg');
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
